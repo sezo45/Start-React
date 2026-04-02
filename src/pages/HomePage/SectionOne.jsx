@@ -7,6 +7,7 @@ export default function SectionOne() {
     <section id="sec-1">
       <div className="container py-5">
         <div className="d-flex flex-wrap col-12 ">
+          <div className="row g-5">
           <div className="col-12 col-md-12 col-lg-6">
             <img className="rounded col-12" src={logo} alt="" />
           </div>
@@ -25,9 +26,10 @@ export default function SectionOne() {
               two cameras
             </p>
             <div className="col-12 d-flex justify-content-between align-items-center">
-              <button className="btn1">Add To Wishlist</button>
-              <button className="btn2">Add To Cart</button>
-            </div>
+              <div className="row g-3 col-12">
+              <div className="col-6"><button className="btn1 col-12">Add To Wishlist</button></div>
+              <div className="col-6"><button className="btn2 col-12">Add To Cart</button></div>
+            </div></div>
             <div className="d-flex justify-content-between align-items-center pt-3">
               <div className="d-flex gap-4 align-items-center">
                 <div className="bgg">
@@ -57,6 +59,7 @@ export default function SectionOne() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>
