@@ -6,9 +6,9 @@ export default function SectionOne() {
   return (
     <section id="sec-1">
       <div className="container py-5">
-        <div className="d-flex col-12 flex-wrap">
+        <div className="d-flex flex-wrap col-12 ">
           <div className="col-12 col-md-12 col-lg-6">
-            <img className="rounded" src={logo} alt="" />
+            <img className="rounded col-12" src={logo} alt="" />
           </div>
           <div className="col-12 col-md-12 col-lg-6 d-flex flex-column gap-2">
             <h1>Apple iphone 14 Pro Max</h1>
